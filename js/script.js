@@ -14,7 +14,6 @@ $(function(){
 
         if(scrollTop > 500){
             $('.back_to_top').show(500);
-            $('.manu_wrapper').removeClass('menu_show');
         }else{
             $('.back_to_top').hide(500);
         }
